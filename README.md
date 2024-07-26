@@ -26,10 +26,15 @@ The main class, TradingEngine, is responsible for connecting to the broker, retr
 
 # Key Methods
 📍ConnectionEstablishment() : This method connects the engine to the TWS API, enabling communication with Interactive Brokers.
+
 📍getMaster() : Retrieves the trading symbol master list to identify available trading symbols.
+
 📍GetMarketData() : Fetches live market data for selected trading symbols or make simulation to get price.
+
 📍GetHistoricalData_Index() : Acquires historical data for stocks to support backtesting and analysis.
+
 📍StartTrading(): Starts the trading process, executing orders based on generated signals.
+
 📍ButterFlyOptionStrategyBasketStyle() : This method implements the butterfly strategy by dynamically selecting the ATM, ITM, and OTM strikes based on the latest market prices.
 
 ## Butterfly Option Strategy
