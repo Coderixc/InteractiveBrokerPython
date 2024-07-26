@@ -3,9 +3,13 @@ This Python script connects to the Interactive Brokers Trader Workstation (TWS) 
 
 # Features
 📌Connection to TWS API: Establish a secure connection with Interactive Brokers to execute trades.
+
 📌Market Data Retrieval: Access real-time and historical market data.
+
 📌Trading Symbol Master: Retrieve master data for trading symbols.
+
 📌Butterfly Option Strategy: Implement a basket-style Butterfly Option Strategy on SPX options with 0 days to expiry.
+
 📌Order Execution: Automatically execute trades based on predefined signals
 
 # Installation
