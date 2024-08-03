@@ -15,7 +15,7 @@ This Python script connects to the Interactive Brokers Trader Workstation (TWS) 
 # Installation
 git clone https://github.com/Coderixc/InteractiveBrokerPython.git
 
-cd trading-engine
+
 
 # Install dependencies:
 Make sure you have Python installed on your machine. Then, install the necessary packages:
